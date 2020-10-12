@@ -9,43 +9,51 @@
   <link rel="stylesheet" href="/css/principal.css">
   <link rel="stylesheet" href="/FontAwesome/css/all.min.css">
 
+  <!-- JS, Popper.js, and jQuery -->
+
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/js/script.js"></script>
+
 </head>
 
 <body>
   <header id="header">
-  
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  
+
       <a class="navbar-brand" href="./index.html">Hotelitos</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrincipal"
         aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-  
+
       <div class="collapse navbar-collapse" id="navbarPrincipal">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
           <li class="nav-item active"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
           <li class="nav-item"><a class="nav-link" href="./galeria.html">Galeria</a></li>
           <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-  
-  
+
+
         </ul>
-  
+
       </div>
-  
-  
+
+
     </nav>
-  
+
   </header>
-  
+
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-4">Hoteles</h1>
-      
+
     </div>
   </div>
-  
+
+
   <div class="container">
     <div><br>
       <nav aria-label="breadcrumb">
@@ -57,19 +65,75 @@
     </div>
 
     <div class="row">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Por que nosotros?
+              </button>
+            </h2>
+          </div>
 
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+              <br><br>
+              Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
+              a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+              Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿Como surgimos?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi
+              consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec,
+              imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget,
+              posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus.
+              Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Nuestros planes a futuro
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              AAenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+              viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+              imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
 
 
+
+
+
   </div>
 
-
-
-  <!-- JS, Popper.js, and jQuery -->
-  <script src="/node_modules/jquery/dist/jquery-3.5.1.slim.min.js"></script>
-  <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
   <footer>

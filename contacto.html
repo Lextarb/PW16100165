@@ -9,43 +9,53 @@
   <link rel="stylesheet" href="/css/principal.css">
   <link rel="stylesheet" href="/FontAwesome/css/all.min.css">
 
+  <!-- JS, Popper.js, and jQuery -->
+
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/js/script.js"></script>
+
+
 </head>
+
+
 
 <body>
   <header id="header">
-  
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  
+
       <a class="navbar-brand" href="./index.html">Hotelitos</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrincipal"
         aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-  
+
       <div class="collapse navbar-collapse" id="navbarPrincipal">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
           <li class="nav-item"><a class="nav-link" href="./galeria.html">Galeria</a></li>
           <li class="nav-item active"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-  
-  
+
+
         </ul>
-  
+
       </div>
-  
-  
+
+
     </nav>
-  
+
   </header>
-  
+
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-4">Hoteles</h1>
-      
+
     </div>
   </div>
-  
+
   <div class="container">
     <div><br>
       <nav aria-label="breadcrumb">
@@ -54,6 +64,13 @@
           <li class="breadcrumb-item active" aria-current="page">Contacto</li>
         </ol>
       </nav>
+    </div>
+
+    <div class="alert alert-dark" role="alert">
+      <h4 class="alert-heading">Gracias por tu interés!</h4>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+      <hr>
+      <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
     </div>
 
     <div>
@@ -96,7 +113,10 @@
           <textarea class="form-control" id="Mensaje" rows="5"> </textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+
+        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom"
+          title="Al hacer click te comunicaras con nosotros!">Enviar Mensaje</button>
+
       </form>
 
 
@@ -106,10 +126,8 @@
 
 
 
-  <!-- JS, Popper.js, and jQuery -->
-  <script src="/node_modules/jquery/dist/jquery-3.5.1.slim.min.js"></script>
-  <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
 
 
   <footer>
