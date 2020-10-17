@@ -7,3 +7,10 @@ $(function () {
   $('.popover-dismiss').popover({
     trigger: 'focus'
   });
+ 
+  function modInicio() {
+    $("#contenedor").empty();
+    $("#contenedor").load("pages/inicio.html",function () {
+
+    });
+  };
