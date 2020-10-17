@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "mode-sass -o css/ css/",
+    "scss": "mode-sass -o css/style.scss css/style.css",
     "less": "lessc css/styles2.less css/styles2.css"
   },
   "repository": {
