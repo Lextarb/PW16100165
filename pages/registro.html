@@ -1,0 +1,101 @@
+<script src="/js/script.js"></script>
+<div class="container">
+
+
+
+
+    <div>
+        <h1>Registro para nuevos usuarios</h1><br>
+        <h2>Completa los siguientes datos para poder registrarte en el sistema.</h2> <br>
+        <form>
+            <div class="form-group">
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            Nombre
+                        </div>
+                        <div class="col">
+                            Apellidos
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Ingrese sus Apellidos">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Correo electronico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu direccion de correo
+                    electronico.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Confirmar correo electronico</label>
+                <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="contra">Contraseña</label>
+                <input type="password" class="form-control" id="contraseña1">
+            </div>
+            <div class="form-group">
+                <label for="contra">Confirmar Contraseña</label>
+                <input type="password" class="form-control" id="contraseña2">
+            </div>
+            <div class="btn-group-toggle">
+                <label for="terminos"> Acepto los terminos y condiciones </label>
+                <input type="checkbox" name="casilla" value="terminos">
+
+            </div>
+
+            <div class="row">
+            
+                <div class="col-lg-6 col-md-12 col-xs-12">
+                    <div class="  ">
+                        <div class="el-element-overlay">
+                            <span><b>Foto Personal:</b></span>
+                            <div class="card">
+                                <div class="el-card-item">
+                                    <div class="el-card-avatar " style="text-align: center;">
+                                        <img id="urlImage1" src="/img/perfil.png"
+                                            style="height: 400px; width: 400px;" alt="user">
+                                    </div>
+                                    <div class="el-card-content">
+                                        <div class="custom-file">
+                                            <input type="file" name=" validatedCustomFile1" class="custom-file-input btn btn-warning shiny btn-file"
+                                                id="validatedCustomFile1" accept="image/png, image/jpeg"
+                                                required style="width: 100%">
+                                            <label class="custom-file-label" id="validatedCustomFileLabel"
+                                                for="validatedCustomFile" style="text-align: left;">
+                                                <b><i>Seleccione una imagen</i></b></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+    <br>
+
+    <div>
+        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom"
+            title="Al hacer click te comunicaras con nosotros!">Enviar Mensaje</button>
+    </div>
+
+    </form>
+
+
+</div>
+
+</div>
